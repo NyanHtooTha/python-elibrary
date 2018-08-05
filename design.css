@@ -39,12 +39,7 @@ li a {
 li a:hover {
     background-color: blue;
 }
-li a:hover {
-    background-color: black;
-}
-.active {
-    background-color: blue;
-}
+
 
 div.gallery {
     margin: 12px;
