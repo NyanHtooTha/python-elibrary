@@ -1,0 +1,65 @@
+
+input[type=submit] {
+    width: 8em;  height: 2em;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 130%;
+}
+li.one {
+	float: center;
+}
+li a {
+    float: left;
+}
+li.one {
+    display: block;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: blue;
+}
+li a:hover {
+    background-color: black;
+}
+.active {
+    background-color: blue;
+}
+
+div.gallery {
+    margin: 12px;
+    border: 3px solid black;
+    float: left;
+    width: 220px;
+}
+div.gallery:hover {
+    border: 3px solid blue;
+}
+div.gallery img {
+    width: 220px;
+    height: 320px;
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
